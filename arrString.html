@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=h1, initial-scale=1.0">
+    <title>CT3</title>
+</head>
+<body>
+    <h1>This is Mr. B</h1>
+    <h1>UK is a country</h1>
+    <h1>BD stands for Bangladesh</h1>
+
+    <script>
+        let text = prompt("Please Enter a sentence",);
+
+        const myarr = text.split(" ") 
+        //document.write(myarr);
+        //document.write(myarr.length);
+        for(let i = 0; i<myarr.length; i++)
+        {
+            if (myarr(i) == "a" || myarr(i) == "e" || myarr(i) == "i" || myarr(i) == "o" || myarr(i) == "u") {
+                vowelsCount += 1;
+            }
+
+            if(vowelsCount >= 1){
+                document.write(myarr[i]);
+            }
+        }
+        
+    </script>
+</body>
+</html>

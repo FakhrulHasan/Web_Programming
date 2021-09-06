@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript DOM</title>
+</head>
+<body>
+
+    <div class="box">
+        <span class="item">Box1</span>
+        <span class="item">Box2</span>
+        <span class="item">Box3</span>
+    </div>
+    <div class="box">
+        <span class="item">Box4</span>
+        <span class="item">Box5</span>
+        <span class="item">Box6</span>
+    </div>
+    <script type="text/javascript">
+
+        let elm = document.querySelector('.box .item');
+        // elm.style.color = 'red';
+        // elm.style.backgroundColor = 'blue';
+        // console.log(elm);
+        // elm.classList.add('highlight');
+        // elm.classList.remove('highlight');
+
+        // console.log(elm.innerHTML);
+        // elm.innerHTML = 'The Box 1';
+
+        let item = document.querySelectorAll('.box .item');
+
+        item[2].innerHTML = "last in the row";
+
+        
+
+        // let marks = [
+        //                 {id: 171168, mark: 10},
+        //                 {id: 171169, mark: 20},
+        //                 {id: 171170, mark: 30},
+        //                 {id: 171171, mark: 40},
+        //             ];
+
+        // let s1 = {name: 'Mr A', id: 171168, marks: 10,
+        //             'full name': 'Mr A B', courses: ['A', 'B', 'C']};
+
+        // //console.log(s1.id);
+        // //console.log(s1.marks);
+        // //console.log(s1['marks']);
+        // s1.address = "Dhaka";
+
+        // for(let i in s1)
+        // {
+        //     //console.log(i + '=' + s1[i]);
+        //     console.log(`the s1 object: ${i} = ${s1[i]}`);
+        // }
+
+    </script>
+</body>
+</html>
